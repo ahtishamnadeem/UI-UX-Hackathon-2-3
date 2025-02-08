@@ -1,0 +1,9 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Products Listing,Open product page > Verify products,All Products should be displayed correctly,All Products displayed correctly as expected,Passed,High,No issues found
+TC002,Add to Cart ,"Click on ""add to cart"" for any product",Products should be added to cart,Products shown in cart as expected,Passed,High,Handled gracefully
+TC003,Cart Operations,Add and remove items from cart,Cart updates with added product or removing products,Cart updates as expected,Passed,High,Works as expected
+TC004,Dynamic Routing,Click on Products to navigate to its detail page,The correct detail page should load,Correct page loads with right details,Passed,Medium,Test successful
+TC005,Error Handling ( Invalid data),Show alerts if data is invalid,An appropriate error message should be displayed,Error message displayed for invalid input,Passed,Critical,Clear message displayed
+TC006,Responsive Design,Testing website on (mobile and desktops),The design should be adjustable in all devices,Website design adapts correctly to various screen sizes,Passed,Medium ,Test successful
+TC007 ,Product Details Page,Click on products to view its details,Product detail page should load correctly,Page loaded without any issues.,Passed,High,Test successful
+TC008,Product Comparison Page,To compare products,Product comparison page should load correctly,Page loaded without any issues.,Passed,High,Handled gracefully
