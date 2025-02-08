@@ -1,7 +1,4 @@
-import { defineType } from "sanity";
-
-
-export const food = defineType ({
+export default {
     name: 'food',
     type: 'document',
     title: 'Food',
@@ -11,14 +8,6 @@ export const food = defineType ({
         type: 'string',
         title: 'Food Name',
       },
-        {
-        name: 'slug',
-        type: 'slug',
-        title: 'slug',
-        options: {
-          source: "name",
-        }
-        },
       {
         name: 'category',
         type: 'string',
@@ -68,6 +57,4 @@ export const food = defineType ({
         description: 'Availability status of the food item',
       },
     ],
-  }
-)
-  
+  };

@@ -1,7 +1,4 @@
-import { defineType } from "sanity";
-
-
-export const chef = defineType ({
+export default {
     name: 'chef',
     type: 'document',
     title: 'Chef',
@@ -50,5 +47,4 @@ export const chef = defineType ({
         description: 'Availability status of the chef',
       },
     ],
-  }
-  )
+  };

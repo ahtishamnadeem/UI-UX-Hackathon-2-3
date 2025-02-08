@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
 import { FiClock, FiUser, FiMessageSquare } from "react-icons/fi";
-import Link from "next/link";
 
 const BlogDetailsPage = () => {
   return (
@@ -78,19 +77,18 @@ const BlogDetailsPage = () => {
 
   <div className="flex items-center space-x-4 mt-4 md:mt-0">
     <span className="text-gray-600 font-semibold">Share:</span>
-    
-    <Link href="https://facebook.com" className="text-gray-500 hover:text-gray-700">
+    <a href="#" className="text-gray-500 hover:text-gray-700">
       <FaFacebookF />
-    </Link>
-    <Link href="https://twitter.com" className="text-gray-500 hover:text-gray-700">
+    </a>
+    <a href="#" className="text-gray-500 hover:text-gray-700">
       <FaTwitter />
-    </Link>
-    <Link href="https://linkedin.com" className="text-gray-500 hover:text-gray-700">
+    </a>
+    <a href="#" className="text-gray-500 hover:text-gray-700">
       <FaLinkedinIn />
-    </Link>
-    <Link href="https://www.pinterest.com" className="text-gray-500 hover:text-gray-700">
+    </a>
+    <a href="#" className="text-gray-500 hover:text-gray-700">
       <FaPinterestP />
-    </Link>
+    </a>
   </div>
 </div>
       </article>
